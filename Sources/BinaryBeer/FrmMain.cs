@@ -27,7 +27,20 @@ namespace BinaryBeer
 
         private void BtnStart_Click(object sender, EventArgs e)
         {
-
+            txtName.Visible = GbxName.Visible = lblName.Visible = true;
+            BtnStart.Text = @"Продолжить";
+            if (BtnStart.Text == @"Продолжить" &&  string.IsNullOrWhiteSpace(txtName.Text))
+            {
+                MessageBox.Show(@"Заполните необходимые поля!", @"Внимание!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Hide();
+                var frmnewgame = new FrmGame();
+                frmnewgame.ShowDialog();
+                Show();
+               
+            }
         }
 
         private void FrmAbout_Click(object sender, EventArgs e)
