@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace BinaryBeer
@@ -15,6 +9,18 @@ namespace BinaryBeer
         public FrmAbout()
         {
             InitializeComponent();
+        }
+
+        private static string AssemblyVersion => Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
+        private void FrmAbout_Load(object sender, EventArgs e)
+        {
+            LblVer.Text = @"Версия " + AssemblyVersion;
+        }
+
+        private void BtnOK_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

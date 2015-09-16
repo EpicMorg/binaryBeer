@@ -29,5 +29,11 @@ namespace BinaryBeer
         {
 
         }
+
+        private void FrmAbout_Click(object sender, EventArgs e)
+        {
+            var frmabout = new FrmAbout();
+            frmabout.ShowDialog();
+        }
     }
 }

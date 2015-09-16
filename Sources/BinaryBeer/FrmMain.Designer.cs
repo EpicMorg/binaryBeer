@@ -73,7 +73,7 @@
             this.FrmAbout.TabIndex = 0;
             this.FrmAbout.Text = "О программе";
             this.FrmAbout.UseVisualStyleBackColor = true;
-            this.FrmAbout.Click += new System.EventHandler(this.BtnStats_Click);
+            this.FrmAbout.Click += new System.EventHandler(this.FrmAbout_Click);
             // 
             // FrmMain
             // 
