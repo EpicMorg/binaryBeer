@@ -36,7 +36,7 @@ namespace BinaryBeer
             else
             {
                 Hide();
-                var frmnewgame = new FrmGame();
+                var frmnewgame = new FrmGame {lbl_name = {Text = txtName.Text}};
                 frmnewgame.ShowDialog();
                 Show();
                

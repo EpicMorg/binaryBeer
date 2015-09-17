@@ -16,5 +16,15 @@ namespace BinaryBeer
         {
             InitializeComponent();
         }
+
+        private void FrmGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = MessageBox.Show(@"Закрыть игру? Результат не будет сохранен.", @"Вниание!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No;
+        }
+
+        private void FrmGame_Load(object sender, EventArgs e)
+        {
+
+        } 
     }
 }

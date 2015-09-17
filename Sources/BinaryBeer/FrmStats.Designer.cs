@@ -96,7 +96,7 @@
 
         private System.Windows.Forms.Button BtnStatsClean;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private new System.Windows.Forms.DataGridViewTextBoxColumn Name;
         private System.Windows.Forms.DataGridViewImageColumn FavBeer;
     }
 }

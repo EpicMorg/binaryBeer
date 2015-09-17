@@ -83,7 +83,6 @@
     <EmbeddedResource Include="FrmStats.resx">
       <DependentUpon>FrmStats.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Beer.ico" />
+    <None Include="Resources\123asd.png" />
+    <None Include="Resources\KsQ29tRRH0k.jpg" />
     <None Include="Resources\31568583_2c303a8655d967dbf0368534091cfe9c_800.jpg" />
     <None Include="Resources\2iar7ep.jpg" />
   </ItemGroup>

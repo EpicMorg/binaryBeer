@@ -63,6 +63,16 @@ namespace BinaryBeer.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _123asd {
+            get {
+                object obj = ResourceManager.GetObject("123asd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2iar7ep {
             get {
                 object obj = ResourceManager.GetObject("2iar7ep", resourceCulture);
@@ -76,6 +86,36 @@ namespace BinaryBeer.Properties {
         internal static System.Drawing.Bitmap _31568583_2c303a8655d967dbf0368534091cfe9c_800 {
             get {
                 object obj = ResourceManager.GetObject("31568583_2c303a8655d967dbf0368534091cfe9c_800", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bad {
+            get {
+                object obj = ResourceManager.GetObject("bad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap good {
+            get {
+                object obj = ResourceManager.GetObject("good", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KsQ29tRRH0k {
+            get {
+                object obj = ResourceManager.GetObject("KsQ29tRRH0k", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

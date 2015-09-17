@@ -45,13 +45,13 @@
             // 
             // LblVer
             // 
-            this.LblVer.AutoSize = true;
             this.LblVer.BackColor = System.Drawing.Color.Transparent;
             this.LblVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LblVer.ForeColor = System.Drawing.Color.Gainsboro;
-            this.LblVer.Location = new System.Drawing.Point(156, 265);
+            this.LblVer.Location = new System.Drawing.Point(12, 265);
             this.LblVer.Name = "LblVer";
-            this.LblVer.Size = new System.Drawing.Size(120, 18);
+            this.LblVer.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.LblVer.Size = new System.Drawing.Size(369, 18);
             this.LblVer.TabIndex = 1;
             this.LblVer.Text = "Версия 0.0.0.0";
             // 
@@ -64,6 +64,7 @@
             this.ClientSize = new System.Drawing.Size(393, 292);
             this.Controls.Add(this.LblVer);
             this.Controls.Add(this.BtnOK);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -73,7 +74,6 @@
             this.Text = "BinaryBeer :: О программе";
             this.Load += new System.EventHandler(this.FrmAbout_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
