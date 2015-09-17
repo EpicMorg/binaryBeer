@@ -21,7 +21,7 @@ namespace BinaryBeer
 
         private void BtnStats_Click(object sender, EventArgs e)
         {
-            var frmstats = new FrmStats();
+            var frmstats = new FrmStatss();
             frmstats.ShowDialog();
         }
 

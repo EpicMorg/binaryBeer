@@ -1,6 +1,6 @@
 ﻿namespace BinaryBeer
 {
-    partial class FrmStats
+    partial class FrmStatss
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStats));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatss));
             this.BtnStatsClean = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FavBeer = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -44,13 +44,14 @@
             this.BtnStatsClean.TabIndex = 1;
             this.BtnStatsClean.Text = "Очистить";
             this.BtnStatsClean.UseVisualStyleBackColor = true;
+            this.BtnStatsClean.Click += new System.EventHandler(this.BtnStatsClean_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Name,
+            this.DName,
             this.FavBeer});
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -60,10 +61,10 @@
             // 
             // Name
             // 
-            this.Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Name.HeaderText = "Имя";
-            this.Name.Name = "Name";
-            this.Name.ReadOnly = true;
+            this.DName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.DName.HeaderText = "Имя";
+            this.DName.Name = "Name";
+            this.DName.ReadOnly = true;
             // 
             // FavBeer
             // 
@@ -72,7 +73,7 @@
             this.FavBeer.Name = "FavBeer";
             this.FavBeer.ReadOnly = true;
             // 
-            // FrmStats
+            // FrmStatss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,6 +85,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+            this.Name = "FrmStatss";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "BinaryBeer :: Статистика";
@@ -96,7 +98,7 @@
 
         private System.Windows.Forms.Button BtnStatsClean;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private new System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private  System.Windows.Forms.DataGridViewTextBoxColumn DName;
         private System.Windows.Forms.DataGridViewImageColumn FavBeer;
     }
 }

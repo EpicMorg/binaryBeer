@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace BinaryBeer
 {
-    public partial class FrmStats : Form
+    public partial class FrmStatss : Form
     {
-        public FrmStats()
+        public FrmStatss()
         {
             InitializeComponent();
+        }
+
+        private void BtnStatsClean_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(@"Очистить статистику? Все результаты будут потеряны.", @"Вниание!", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Exclamation);
         }
     }
 }

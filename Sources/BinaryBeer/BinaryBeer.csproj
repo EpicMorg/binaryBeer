@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Beer.ico" />
+    <None Include="Resources\good.png" />
+    <None Include="Resources\bad.png" />
     <None Include="Resources\123asd.png" />
     <None Include="Resources\KsQ29tRRH0k.jpg" />
     <None Include="Resources\31568583_2c303a8655d967dbf0368534091cfe9c_800.jpg" />
