@@ -130,7 +130,6 @@
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BinaryBeer :: Главная";
-            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.GbxName.ResumeLayout(false);
             this.GbxName.PerformLayout();
             this.ResumeLayout(false);
