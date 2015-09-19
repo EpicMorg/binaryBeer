@@ -29,8 +29,13 @@ namespace BinaryBeer
             var beers = Beer.GetBeers();
             for ( int i = 0; i < items.Length; i++ ) {
                 var t = items[ i ];
-                dataGridView1.Rows[ i ].Cells[ 0 ].Value = t.Player;
-                dataGridView1.Rows[i].Cells[1].Value = beers.FirstOrDefault(a=>a.Name==t.BeerName).Image;
+                var row = dataGridView1.Rows[ i ];
+                row.Cells[ 0 ].Value = t.Player;
+                var cell = row.Cells[1];
+                var image = beers.FirstOrDefault(a=>a.Name==t.BeerName).Image;
+                row.Height = image.Height;
+                cell.Value = image;
+
             }
         }
     }

@@ -145,6 +145,7 @@ namespace BinaryBeer {
                 BeerName = pct_ww.Beer.Name,
                 Player = lbl_name.Text
             } );
+            this.Close();
         }
     }
 }
