@@ -2,83 +2,56 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using static BinaryBeer.Properties.Resources;
 
 namespace BinaryBeer {
-    //internal class Game {
-    //    private readonly string _username;
-    //    private IList<Set> sets;
-    //    private int currentSet = 0;
-    //    private int currentRound = 0;
-    //    private int setSize = 8;
-    //    private Set[] _sets;
-
-    //    public Game( string username ) {
-    //        _username = username;
-    //        _sets = Beer.GetBeers()
-    //            .Select( ( a, index ) => new {a, index} )
-    //            .GroupBy( a => a.index / setSize )
-    //            .Select( a => BuildSet( a.Select( b => b.a ).ToArray() ) )
-    //            .ToArray();
-    //    }
-
-    //    private static Set BuildSet( IEnumerable<Beer> init ) {
-    //        var arr = init.ToArray();
-    //        var ret = new Set
-    //        {
-    //            RoundCount = (int) Math.Log( arr.Length, 2 ),
-    //        };
-    //        var rounds = new List<IList<ComparePair>>
-    //        {
-    //            arr.Select( ( value, index ) => new {value, index} ).GroupBy( a => a.index / 2 ).Select( grp => {
-    //                var q = grp.Select( a => a.value ).ToArray();
-    //                return new ComparePair()
-    //                {
-    //                    Right = q[ 0 ],
-    //                    Left = q[ 1 ]
-    //                };
-    //            } ).ToArray()
-    //        };
-    //        for ( int i = 1; i < ret.RoundCount; i++ ) {
-    //            rounds.Add(
-    //                Enumerable.Range( 0, (int) ( ret.RoundCount / Math.Pow( 2, i + 1 ) ) )
-    //                    .Select( a => new ComparePair() )
-    //                    .ToArray() );
-    //        }
-    //        return ret;
-    //    }
-
-
-    //    public Set GetSet() {
-    //        if ( currentSet < _sets.Length ) {
-    //            return _sets[ currentSet ];
-    //        }
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public bool SetWinner( int roundId, int setId ) {
-    //        throw new NotImplementedException();
-    //    }
-    //}
-
-    //public class Set {
-    //    public Beer Winner { get; set; }
-    //    public IList<IList<ComparePair>> Rounds { get; set; }
-    //    public int RoundCount { get; set; }
-    //}
-
-    //public class ComparePair {
-    //    public Beer Left { get; set; }
-    //    public Beer Right { get; set; }
-    //    public bool Result { get; set; }
-    //}
 
     public class Beer {
-        public virtual string Name { get; set; }
-        public virtual Image Image => null;
+        public Beer( string s,  Image image ) {
+            Name = s;
+            Image = image;
+        }
 
-        public static IList<Beer> GetBeers() => Enumerable.Range( 0, 32 ).Select( a => new Beer
-        {
-            Name = "Beer #" + a
-        } ).ToArray();
+        public string Name { get; set; }
+
+        public virtual Image Image { get; set; }
+        static Random r = new Random();
+
+        public static IList<Beer> GetBeers() {
+            return new Beer[] {
+                new Beer(nameof(amstel), amstel),
+                new Beer(nameof(amstel_premium), amstel_premium),
+                new Beer(nameof(baltika_3), baltika_3),
+                new Beer(nameof(baltika_praha), baltika_praha),
+                new Beer(nameof(baltika_razliv), baltika_razliv),
+                new Beer(nameof(baltika_vienna), baltika_vienna),
+                new Beer(nameof(blanc), blanc),
+                new Beer(nameof(boiler_maker), boiler_maker),
+                new Beer(nameof(bud), bud),
+                new Beer(nameof(california), california),
+                new Beer(nameof(carlsberg), carlsberg),
+                new Beer(nameof(edelweiss), edelweiss),
+                new Beer(nameof(gosser), gosser),
+                new Beer(nameof(heineken), heineken),
+                new Beer(nameof(hoegaarden), hoegaarden),
+                new Beer(nameof(holsten), holsten),
+                new Beer(nameof(koff), koff),
+                new Beer(nameof(kozel), kozel),
+                new Beer(nameof(krusovice), krusovice),
+                new Beer(nameof(lowenbrau), lowenbrau),
+                new Beer(nameof(mythos), mythos),
+                new Beer(nameof(neon_beer), neon_beer),
+                new Beer(nameof(nevskoe_alive), nevskoe_alive),
+                new Beer(nameof(nevskoe_classical), nevskoe_classical),
+                new Beer(nameof(nevskoe_light), nevskoe_light),
+                new Beer(nameof(ohota), ohota),
+                new Beer(nameof(premiere), premiere),
+                new Beer(nameof(staropramen), staropramen),
+                new Beer(nameof(tryohgornoe), tryohgornoe),
+                new Beer(nameof(tuborg), tuborg),
+                new Beer(nameof(vienna_light), vienna_light),
+                new Beer(nameof(zatecky_gus), zatecky_gus),
+            }.Select( value=>new {value, sort=r.Next()} ).ToArray().OrderBy( a=>a.sort ).Select( a=>a.value ).ToArray();
+        }
     }
 }

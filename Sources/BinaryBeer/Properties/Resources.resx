@@ -148,4 +148,100 @@
   <data name="CloseGameProgressWillBeLost" xml:space="preserve">
     <value>Закрыть игру? Результат не будет сохранен.</value>
   </data>
+  <data name="amstel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\amstel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amstel_premium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\amstel_premium.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baltika_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\baltika_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baltika_praha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\baltika_praha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baltika_razliv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\baltika_razliv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baltika_vienna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\baltika_vienna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\blanc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boiler_maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\boiler_maker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\bud.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="california" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\california.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carlsberg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\carlsberg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edelweiss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\edelweiss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gosser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\gosser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heineken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\heineken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hoegaarden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\hoegaarden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holsten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\holsten.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\koff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kozel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\kozel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krusovice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\krusovice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lowenbrau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\lowenbrau.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mythos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\mythos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neon_beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\neon_beer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nevskoe_alive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\nevskoe_alive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nevskoe_classical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\nevskoe_classical.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nevskoe_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\nevskoe_light.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ohota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\ohota.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\premiere.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staropramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\staropramen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tryohgornoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\tryohgornoe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tuborg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\tuborg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vienna_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\vienna_light.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zatecky_gus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\beer\zatecky_gus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

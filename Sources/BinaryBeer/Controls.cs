@@ -1,10 +1,25 @@
 ﻿using System.Windows.Forms;
+using BinaryBeer.Properties;
 
 namespace BinaryBeer
 {
     public class PictureBoxEx : PictureBox
     {
-        public Beer Beer { get; set; }
+        private Beer _beer;
+
+        public Beer Beer
+        {
+            get
+            {
+                return _beer;
+            }
+            set
+            {
+                this.BackgroundImageLayout = ImageLayout.Zoom;
+                this.BackgroundImage = value?.Image ?? Resources._123asd;
+                _beer = value;
+            }
+        }
     }
 
     public class GroupBoxEx : GroupBox {

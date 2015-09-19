@@ -31,94 +31,94 @@ namespace BinaryBeer
         /// </summary>
         private void InitializeComponent()
         {
-            ComponentResourceManager resources = new ComponentResourceManager(typeof(FrmGame));
-            this.grp_info = new GroupBox();
-            this.pct_av = new PictureBoxEx();
-            this.lbl_lvl = new Label();
-            this.lbl_lbl_lbl = new Label();
-            this.lbl_name = new Label();
-            this.grp_0_0 = new GroupBoxEx();
-            this.pct_0_0_1 = new PictureBoxEx();
-            this.pct_0_0_0 = new PictureBoxEx();
-            this.grp_wnr_0 = new GroupBoxEx();
-            this.pct_wnr_0 = new PictureBoxEx();
-            this.tbc = new TabControl();
-            this.tb_def = new TabPage();
-            this.grp_0_3 = new GroupBoxEx();
-            this.pct_0_3_1 = new PictureBoxEx();
-            this.pct_0_3_0 = new PictureBoxEx();
-            this.grp_1_1 = new GroupBoxEx();
-            this.pct_1_1_1 = new PictureBoxEx();
-            this.pct_1_1_0 = new PictureBoxEx();
-            this.grp_0_2 = new GroupBoxEx();
-            this.pct_0_2_1 = new PictureBoxEx();
-            this.pct_0_2_0 = new PictureBoxEx();
-            this.grp_2_0 = new GroupBoxEx();
-            this.pct_2_0_1 = new PictureBoxEx();
-            this.pct_2_0_0 = new PictureBoxEx();
-            this.grp_1_0 = new GroupBoxEx();
-            this.pct_1_0_1 = new PictureBoxEx();
-            this.pct_1_0_0 = new PictureBoxEx();
-            this.grp_0_1 = new GroupBoxEx();
-            this.pct_0_1_1 = new PictureBoxEx();
-            this.pct_0_1_0 = new PictureBoxEx();
-            this.tb_sel = new TabPage();
-            this.btn_win = new Button();
-            this.grp_w0_1 = new GroupBoxEx();
-            this.pct_w0_1_1 = new PictureBoxEx();
-            this.pct_w0_1_0 = new PictureBoxEx();
-            this.grp_w1_0 = new GroupBoxEx();
-            this.pct_w1_0_1 = new PictureBoxEx();
-            this.pct_w1_0_0 = new PictureBoxEx();
-            this.grp_w0_0 = new GroupBoxEx();
-            this.pct_w0_0_1 = new PictureBoxEx();
-            this.pct_w0_0_0 = new PictureBoxEx();
-            this.grp_ww = new GroupBoxEx();
-            this.pct_ww = new PictureBoxEx();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGame));
+            this.grp_info = new System.Windows.Forms.GroupBox();
+            this.pct_av = new BinaryBeer.PictureBoxEx();
+            this.lbl_lvl = new System.Windows.Forms.Label();
+            this.lbl_lbl_lbl = new System.Windows.Forms.Label();
+            this.lbl_name = new System.Windows.Forms.Label();
+            this.grp_0_0 = new BinaryBeer.GroupBoxEx();
+            this.pct_0_0_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_0_0_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_wnr_0 = new System.Windows.Forms.GroupBox();
+            this.pct_wnr_0 = new BinaryBeer.PictureBoxEx();
+            this.tbc = new System.Windows.Forms.TabControl();
+            this.tb_def = new System.Windows.Forms.TabPage();
+            this.grp_0_3 = new BinaryBeer.GroupBoxEx();
+            this.pct_0_3_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_0_3_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_1_1 = new BinaryBeer.GroupBoxEx();
+            this.pct_1_1_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_1_1_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_0_2 = new BinaryBeer.GroupBoxEx();
+            this.pct_0_2_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_0_2_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_2_0 = new BinaryBeer.GroupBoxEx();
+            this.pct_2_0_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_2_0_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_1_0 = new BinaryBeer.GroupBoxEx();
+            this.pct_1_0_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_1_0_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_0_1 = new BinaryBeer.GroupBoxEx();
+            this.pct_0_1_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_0_1_0 = new BinaryBeer.PictureBoxEx();
+            this.tb_sel = new System.Windows.Forms.TabPage();
+            this.btn_win = new System.Windows.Forms.Button();
+            this.grp_w0_1 = new BinaryBeer.GroupBoxEx();
+            this.pct_w0_1_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_w0_1_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_w1_0 = new BinaryBeer.GroupBoxEx();
+            this.pct_w1_0_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_w1_0_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_w0_0 = new BinaryBeer.GroupBoxEx();
+            this.pct_w0_0_1 = new BinaryBeer.PictureBoxEx();
+            this.pct_w0_0_0 = new BinaryBeer.PictureBoxEx();
+            this.grp_ww = new BinaryBeer.GroupBoxEx();
+            this.pct_ww = new BinaryBeer.PictureBoxEx();
             this.grp_info.SuspendLayout();
-            ((ISupportInitialize)(this.pct_av)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_av)).BeginInit();
             this.grp_0_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_0_0_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_0_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_0_0)).BeginInit();
             this.grp_wnr_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_wnr_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_wnr_0)).BeginInit();
             this.tbc.SuspendLayout();
             this.tb_def.SuspendLayout();
             this.grp_0_3.SuspendLayout();
-            ((ISupportInitialize)(this.pct_0_3_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_0_3_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_3_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_3_0)).BeginInit();
             this.grp_1_1.SuspendLayout();
-            ((ISupportInitialize)(this.pct_1_1_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_1_1_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_1_0)).BeginInit();
             this.grp_0_2.SuspendLayout();
-            ((ISupportInitialize)(this.pct_0_2_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_0_2_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_2_0)).BeginInit();
             this.grp_2_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_2_0_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_2_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2_0_0)).BeginInit();
             this.grp_1_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_1_0_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_1_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_0_0)).BeginInit();
             this.grp_0_1.SuspendLayout();
-            ((ISupportInitialize)(this.pct_0_1_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_0_1_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_1_0)).BeginInit();
             this.tb_sel.SuspendLayout();
             this.grp_w0_1.SuspendLayout();
-            ((ISupportInitialize)(this.pct_w0_1_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_w0_1_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_1_0)).BeginInit();
             this.grp_w1_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_w1_0_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_w1_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w1_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w1_0_0)).BeginInit();
             this.grp_w0_0.SuspendLayout();
-            ((ISupportInitialize)(this.pct_w0_0_1)).BeginInit();
-            ((ISupportInitialize)(this.pct_w0_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_0_0)).BeginInit();
             this.grp_ww.SuspendLayout();
-            ((ISupportInitialize)(this.pct_ww)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_ww)).BeginInit();
             this.SuspendLayout();
             // 
             // grp_info
             // 
-            this.grp_info.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
+            this.grp_info.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.grp_info.Controls.Add(this.pct_av);
             this.grp_info.Controls.Add(this.lbl_lvl);
             this.grp_info.Controls.Add(this.lbl_lbl_lbl);
@@ -132,12 +132,14 @@ namespace BinaryBeer
             // 
             // pct_av
             // 
+            this.pct_av.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_av.BackgroundImage")));
+            this.pct_av.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_av.Beer = null;
-            this.pct_av.Image = Properties.Resources._123asd;
+            this.pct_av.Image = global::BinaryBeer.Properties.Resources._123asd;
             this.pct_av.Location = new System.Drawing.Point(9, 19);
             this.pct_av.Name = "pct_av";
             this.pct_av.Size = new System.Drawing.Size(126, 135);
-            this.pct_av.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_av.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_av.TabIndex = 1;
             this.pct_av.TabStop = false;
             // 
@@ -177,6 +179,7 @@ namespace BinaryBeer
             this.grp_0_0.Controls.Add(this.pct_0_0_0);
             this.grp_0_0.Location = new System.Drawing.Point(16, 398);
             this.grp_0_0.Name = "grp_0_0";
+            this.grp_0_0.Round = 0;
             this.grp_0_0.Size = new System.Drawing.Size(170, 102);
             this.grp_0_0.TabIndex = 1;
             this.grp_0_0.TabStop = false;
@@ -184,15 +187,14 @@ namespace BinaryBeer
             // pct_0_0_1
             // 
             this.pct_0_0_1.BackColor = System.Drawing.Color.White;
-            this.pct_0_0_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_0_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_0_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_0_1.BackgroundImage")));
+            this.pct_0_0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_0_1.Beer = null;
-            this.pct_0_0_1.Cursor = Cursors.Hand;
-            this.pct_0_0_1.Image = Properties.Resources.bad;
+            this.pct_0_0_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_0_1.Location = new System.Drawing.Point(87, 17);
             this.pct_0_0_1.Name = "pct_0_0_1";
             this.pct_0_0_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_0_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_0_1.TabIndex = 1;
             this.pct_0_0_1.TabStop = false;
             this.pct_0_0_1.Click += new System.EventHandler(this.BottomClick);
@@ -200,15 +202,14 @@ namespace BinaryBeer
             // pct_0_0_0
             // 
             this.pct_0_0_0.BackColor = System.Drawing.Color.White;
-            this.pct_0_0_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_0_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_0_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_0_0.BackgroundImage")));
+            this.pct_0_0_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_0_0.Beer = null;
-            this.pct_0_0_0.Cursor = Cursors.Hand;
-            this.pct_0_0_0.Image = Properties.Resources.good;
+            this.pct_0_0_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_0_0.Location = new System.Drawing.Point(6, 17);
             this.pct_0_0_0.Name = "pct_0_0_0";
             this.pct_0_0_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_0_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_0_0.TabIndex = 1;
             this.pct_0_0_0.TabStop = false;
             this.pct_0_0_0.Click += new System.EventHandler(this.BottomClick);
@@ -225,19 +226,21 @@ namespace BinaryBeer
             // pct_wnr_0
             // 
             this.pct_wnr_0.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pct_wnr_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_wnr_0.BackgroundImage")));
+            this.pct_wnr_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_wnr_0.Beer = null;
             this.pct_wnr_0.Location = new System.Drawing.Point(22, 22);
             this.pct_wnr_0.Name = "pct_wnr_0";
             this.pct_wnr_0.Size = new System.Drawing.Size(128, 128);
-            this.pct_wnr_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_wnr_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_wnr_0.TabIndex = 1;
             this.pct_wnr_0.TabStop = false;
             // 
             // tbc
             // 
-            this.tbc.Anchor = ((AnchorStyles)((((AnchorStyles.Top | AnchorStyles.Bottom) 
-            | AnchorStyles.Left) 
-            | AnchorStyles.Right)));
+            this.tbc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbc.Controls.Add(this.tb_def);
             this.tbc.Controls.Add(this.tb_sel);
             this.tbc.Location = new System.Drawing.Point(12, -4);
@@ -258,7 +261,7 @@ namespace BinaryBeer
             this.tb_def.Controls.Add(this.grp_wnr_0);
             this.tb_def.Location = new System.Drawing.Point(4, 22);
             this.tb_def.Name = "tb_def";
-            this.tb_def.Padding = new Padding(3);
+            this.tb_def.Padding = new System.Windows.Forms.Padding(3);
             this.tb_def.Size = new System.Drawing.Size(730, 518);
             this.tb_def.TabIndex = 0;
             this.tb_def.Text = "tabPage1";
@@ -270,6 +273,7 @@ namespace BinaryBeer
             this.grp_0_3.Controls.Add(this.pct_0_3_0);
             this.grp_0_3.Location = new System.Drawing.Point(544, 398);
             this.grp_0_3.Name = "grp_0_3";
+            this.grp_0_3.Round = 0;
             this.grp_0_3.Size = new System.Drawing.Size(170, 102);
             this.grp_0_3.TabIndex = 1;
             this.grp_0_3.TabStop = false;
@@ -277,15 +281,14 @@ namespace BinaryBeer
             // pct_0_3_1
             // 
             this.pct_0_3_1.BackColor = System.Drawing.Color.White;
-            this.pct_0_3_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_3_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_3_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_3_1.BackgroundImage")));
+            this.pct_0_3_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_3_1.Beer = null;
-            this.pct_0_3_1.Cursor = Cursors.Hand;
-            this.pct_0_3_1.Image = Properties.Resources.bad;
+            this.pct_0_3_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_3_1.Location = new System.Drawing.Point(87, 17);
             this.pct_0_3_1.Name = "pct_0_3_1";
             this.pct_0_3_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_3_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_3_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_3_1.TabIndex = 1;
             this.pct_0_3_1.TabStop = false;
             this.pct_0_3_1.Click += new System.EventHandler(this.BottomClick);
@@ -293,15 +296,14 @@ namespace BinaryBeer
             // pct_0_3_0
             // 
             this.pct_0_3_0.BackColor = System.Drawing.Color.White;
-            this.pct_0_3_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_3_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_3_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_3_0.BackgroundImage")));
+            this.pct_0_3_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_3_0.Beer = null;
-            this.pct_0_3_0.Cursor = Cursors.Hand;
-            this.pct_0_3_0.Image = Properties.Resources.good;
+            this.pct_0_3_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_3_0.Location = new System.Drawing.Point(6, 17);
             this.pct_0_3_0.Name = "pct_0_3_0";
             this.pct_0_3_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_3_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_3_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_3_0.TabIndex = 1;
             this.pct_0_3_0.TabStop = false;
             this.pct_0_3_0.Click += new System.EventHandler(this.BottomClick);
@@ -310,8 +312,10 @@ namespace BinaryBeer
             // 
             this.grp_1_1.Controls.Add(this.pct_1_1_1);
             this.grp_1_1.Controls.Add(this.pct_1_1_0);
+            this.grp_1_1.Enabled = false;
             this.grp_1_1.Location = new System.Drawing.Point(368, 290);
             this.grp_1_1.Name = "grp_1_1";
+            this.grp_1_1.Round = 1;
             this.grp_1_1.Size = new System.Drawing.Size(170, 102);
             this.grp_1_1.TabIndex = 1;
             this.grp_1_1.TabStop = false;
@@ -319,15 +323,14 @@ namespace BinaryBeer
             // pct_1_1_1
             // 
             this.pct_1_1_1.BackColor = System.Drawing.Color.White;
-            this.pct_1_1_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_1_1_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_1_1_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_1_1_1.BackgroundImage")));
+            this.pct_1_1_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_1_1_1.Beer = null;
-            this.pct_1_1_1.Cursor = Cursors.Hand;
-            this.pct_1_1_1.Image = Properties.Resources.bad;
+            this.pct_1_1_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_1_1_1.Location = new System.Drawing.Point(87, 17);
             this.pct_1_1_1.Name = "pct_1_1_1";
             this.pct_1_1_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_1_1_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_1_1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_1_1_1.TabIndex = 1;
             this.pct_1_1_1.TabStop = false;
             this.pct_1_1_1.Click += new System.EventHandler(this.BottomClick);
@@ -335,15 +338,14 @@ namespace BinaryBeer
             // pct_1_1_0
             // 
             this.pct_1_1_0.BackColor = System.Drawing.Color.White;
-            this.pct_1_1_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_1_1_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_1_1_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_1_1_0.BackgroundImage")));
+            this.pct_1_1_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_1_1_0.Beer = null;
-            this.pct_1_1_0.Cursor = Cursors.Hand;
-            this.pct_1_1_0.Image = Properties.Resources.good;
+            this.pct_1_1_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_1_1_0.Location = new System.Drawing.Point(6, 17);
             this.pct_1_1_0.Name = "pct_1_1_0";
             this.pct_1_1_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_1_1_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_1_1_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_1_1_0.TabIndex = 1;
             this.pct_1_1_0.TabStop = false;
             this.pct_1_1_0.Click += new System.EventHandler(this.BottomClick);
@@ -354,6 +356,7 @@ namespace BinaryBeer
             this.grp_0_2.Controls.Add(this.pct_0_2_0);
             this.grp_0_2.Location = new System.Drawing.Point(368, 398);
             this.grp_0_2.Name = "grp_0_2";
+            this.grp_0_2.Round = 0;
             this.grp_0_2.Size = new System.Drawing.Size(170, 102);
             this.grp_0_2.TabIndex = 1;
             this.grp_0_2.TabStop = false;
@@ -361,15 +364,14 @@ namespace BinaryBeer
             // pct_0_2_1
             // 
             this.pct_0_2_1.BackColor = System.Drawing.Color.White;
-            this.pct_0_2_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_2_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_2_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_2_1.BackgroundImage")));
+            this.pct_0_2_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_2_1.Beer = null;
-            this.pct_0_2_1.Cursor = Cursors.Hand;
-            this.pct_0_2_1.Image = Properties.Resources.bad;
+            this.pct_0_2_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_2_1.Location = new System.Drawing.Point(87, 17);
             this.pct_0_2_1.Name = "pct_0_2_1";
             this.pct_0_2_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_2_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_2_1.TabIndex = 1;
             this.pct_0_2_1.TabStop = false;
             this.pct_0_2_1.Click += new System.EventHandler(this.BottomClick);
@@ -377,15 +379,14 @@ namespace BinaryBeer
             // pct_0_2_0
             // 
             this.pct_0_2_0.BackColor = System.Drawing.Color.White;
-            this.pct_0_2_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_2_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_2_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_2_0.BackgroundImage")));
+            this.pct_0_2_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_2_0.Beer = null;
-            this.pct_0_2_0.Cursor = Cursors.Hand;
-            this.pct_0_2_0.Image = Properties.Resources.good;
+            this.pct_0_2_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_2_0.Location = new System.Drawing.Point(6, 17);
             this.pct_0_2_0.Name = "pct_0_2_0";
             this.pct_0_2_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_2_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_2_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_2_0.TabIndex = 1;
             this.pct_0_2_0.TabStop = false;
             this.pct_0_2_0.Click += new System.EventHandler(this.BottomClick);
@@ -394,8 +395,10 @@ namespace BinaryBeer
             // 
             this.grp_2_0.Controls.Add(this.pct_2_0_1);
             this.grp_2_0.Controls.Add(this.pct_2_0_0);
+            this.grp_2_0.Enabled = false;
             this.grp_2_0.Location = new System.Drawing.Point(279, 182);
             this.grp_2_0.Name = "grp_2_0";
+            this.grp_2_0.Round = 2;
             this.grp_2_0.Size = new System.Drawing.Size(170, 102);
             this.grp_2_0.TabIndex = 1;
             this.grp_2_0.TabStop = false;
@@ -403,39 +406,41 @@ namespace BinaryBeer
             // pct_2_0_1
             // 
             this.pct_2_0_1.BackColor = System.Drawing.Color.White;
-            this.pct_2_0_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_2_0_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_2_0_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_2_0_1.BackgroundImage")));
+            this.pct_2_0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_2_0_1.Beer = null;
-            this.pct_2_0_1.Cursor = Cursors.Hand;
-            this.pct_2_0_1.Image = Properties.Resources.bad;
+            this.pct_2_0_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_2_0_1.Location = new System.Drawing.Point(87, 17);
             this.pct_2_0_1.Name = "pct_2_0_1";
             this.pct_2_0_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_2_0_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_2_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_2_0_1.TabIndex = 1;
             this.pct_2_0_1.TabStop = false;
+            this.pct_2_0_1.Click += new System.EventHandler(this.BottomClick);
             // 
             // pct_2_0_0
             // 
             this.pct_2_0_0.BackColor = System.Drawing.Color.White;
-            this.pct_2_0_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_2_0_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_2_0_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_2_0_0.BackgroundImage")));
+            this.pct_2_0_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_2_0_0.Beer = null;
-            this.pct_2_0_0.Cursor = Cursors.Hand;
-            this.pct_2_0_0.Image = Properties.Resources.good;
+            this.pct_2_0_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_2_0_0.Location = new System.Drawing.Point(6, 17);
             this.pct_2_0_0.Name = "pct_2_0_0";
             this.pct_2_0_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_2_0_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_2_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_2_0_0.TabIndex = 1;
             this.pct_2_0_0.TabStop = false;
+            this.pct_2_0_0.Click += new System.EventHandler(this.BottomClick);
             // 
             // grp_1_0
             // 
             this.grp_1_0.Controls.Add(this.pct_1_0_1);
             this.grp_1_0.Controls.Add(this.pct_1_0_0);
+            this.grp_1_0.Enabled = false;
             this.grp_1_0.Location = new System.Drawing.Point(192, 290);
             this.grp_1_0.Name = "grp_1_0";
+            this.grp_1_0.Round = 1;
             this.grp_1_0.Size = new System.Drawing.Size(170, 102);
             this.grp_1_0.TabIndex = 1;
             this.grp_1_0.TabStop = false;
@@ -443,15 +448,14 @@ namespace BinaryBeer
             // pct_1_0_1
             // 
             this.pct_1_0_1.BackColor = System.Drawing.Color.White;
-            this.pct_1_0_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_1_0_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_1_0_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_1_0_1.BackgroundImage")));
+            this.pct_1_0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_1_0_1.Beer = null;
-            this.pct_1_0_1.Cursor = Cursors.Hand;
-            this.pct_1_0_1.Image = Properties.Resources.bad;
+            this.pct_1_0_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_1_0_1.Location = new System.Drawing.Point(87, 17);
             this.pct_1_0_1.Name = "pct_1_0_1";
             this.pct_1_0_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_1_0_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_1_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_1_0_1.TabIndex = 1;
             this.pct_1_0_1.TabStop = false;
             this.pct_1_0_1.Click += new System.EventHandler(this.BottomClick);
@@ -459,15 +463,14 @@ namespace BinaryBeer
             // pct_1_0_0
             // 
             this.pct_1_0_0.BackColor = System.Drawing.Color.White;
-            this.pct_1_0_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_1_0_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_1_0_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_1_0_0.BackgroundImage")));
+            this.pct_1_0_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_1_0_0.Beer = null;
-            this.pct_1_0_0.Cursor = Cursors.Hand;
-            this.pct_1_0_0.Image = Properties.Resources.good;
+            this.pct_1_0_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_1_0_0.Location = new System.Drawing.Point(6, 17);
             this.pct_1_0_0.Name = "pct_1_0_0";
             this.pct_1_0_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_1_0_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_1_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_1_0_0.TabIndex = 1;
             this.pct_1_0_0.TabStop = false;
             this.pct_1_0_0.Click += new System.EventHandler(this.BottomClick);
@@ -478,6 +481,7 @@ namespace BinaryBeer
             this.grp_0_1.Controls.Add(this.pct_0_1_0);
             this.grp_0_1.Location = new System.Drawing.Point(192, 398);
             this.grp_0_1.Name = "grp_0_1";
+            this.grp_0_1.Round = 0;
             this.grp_0_1.Size = new System.Drawing.Size(170, 102);
             this.grp_0_1.TabIndex = 1;
             this.grp_0_1.TabStop = false;
@@ -485,15 +489,14 @@ namespace BinaryBeer
             // pct_0_1_1
             // 
             this.pct_0_1_1.BackColor = System.Drawing.Color.White;
-            this.pct_0_1_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_1_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_1_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_1_1.BackgroundImage")));
+            this.pct_0_1_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_1_1.Beer = null;
-            this.pct_0_1_1.Cursor = Cursors.Hand;
-            this.pct_0_1_1.Image = Properties.Resources.bad;
+            this.pct_0_1_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_1_1.Location = new System.Drawing.Point(87, 17);
             this.pct_0_1_1.Name = "pct_0_1_1";
             this.pct_0_1_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_1_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_1_1.TabIndex = 1;
             this.pct_0_1_1.TabStop = false;
             this.pct_0_1_1.Click += new System.EventHandler(this.BottomClick);
@@ -501,15 +504,14 @@ namespace BinaryBeer
             // pct_0_1_0
             // 
             this.pct_0_1_0.BackColor = System.Drawing.Color.White;
-            this.pct_0_1_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_0_1_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_0_1_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_0_1_0.BackgroundImage")));
+            this.pct_0_1_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_0_1_0.Beer = null;
-            this.pct_0_1_0.Cursor = Cursors.Hand;
-            this.pct_0_1_0.Image = Properties.Resources.good;
+            this.pct_0_1_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_0_1_0.Location = new System.Drawing.Point(6, 17);
             this.pct_0_1_0.Name = "pct_0_1_0";
             this.pct_0_1_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_0_1_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_0_1_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_0_1_0.TabIndex = 1;
             this.pct_0_1_0.TabStop = false;
             this.pct_0_1_0.Click += new System.EventHandler(this.BottomClick);
@@ -523,7 +525,7 @@ namespace BinaryBeer
             this.tb_sel.Controls.Add(this.grp_ww);
             this.tb_sel.Location = new System.Drawing.Point(4, 22);
             this.tb_sel.Name = "tb_sel";
-            this.tb_sel.Padding = new Padding(3);
+            this.tb_sel.Padding = new System.Windows.Forms.Padding(3);
             this.tb_sel.Size = new System.Drawing.Size(730, 518);
             this.tb_sel.TabIndex = 4;
             this.tb_sel.Text = "tabPage5";
@@ -531,6 +533,7 @@ namespace BinaryBeer
             // 
             // btn_win
             // 
+            this.btn_win.Enabled = false;
             this.btn_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btn_win.Location = new System.Drawing.Point(192, 398);
             this.btn_win.Name = "btn_win";
@@ -538,6 +541,7 @@ namespace BinaryBeer
             this.btn_win.TabIndex = 10;
             this.btn_win.Text = "Победа!";
             this.btn_win.UseVisualStyleBackColor = true;
+            this.btn_win.Click += new System.EventHandler(this.btn_win_Click);
             // 
             // grp_w0_1
             // 
@@ -545,6 +549,7 @@ namespace BinaryBeer
             this.grp_w0_1.Controls.Add(this.pct_w0_1_0);
             this.grp_w0_1.Location = new System.Drawing.Point(368, 290);
             this.grp_w0_1.Name = "grp_w0_1";
+            this.grp_w0_1.Round = 0;
             this.grp_w0_1.Size = new System.Drawing.Size(170, 102);
             this.grp_w0_1.TabIndex = 3;
             this.grp_w0_1.TabStop = false;
@@ -552,39 +557,41 @@ namespace BinaryBeer
             // pct_w0_1_1
             // 
             this.pct_w0_1_1.BackColor = System.Drawing.Color.White;
-            this.pct_w0_1_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w0_1_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w0_1_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w0_1_1.BackgroundImage")));
+            this.pct_w0_1_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w0_1_1.Beer = null;
-            this.pct_w0_1_1.Cursor = Cursors.Hand;
-            this.pct_w0_1_1.Image = Properties.Resources.bad;
+            this.pct_w0_1_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w0_1_1.Location = new System.Drawing.Point(87, 17);
             this.pct_w0_1_1.Name = "pct_w0_1_1";
             this.pct_w0_1_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_w0_1_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w0_1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w0_1_1.TabIndex = 1;
             this.pct_w0_1_1.TabStop = false;
+            this.pct_w0_1_1.Click += new System.EventHandler(this.UpClick);
             // 
             // pct_w0_1_0
             // 
             this.pct_w0_1_0.BackColor = System.Drawing.Color.White;
-            this.pct_w0_1_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w0_1_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w0_1_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w0_1_0.BackgroundImage")));
+            this.pct_w0_1_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w0_1_0.Beer = null;
-            this.pct_w0_1_0.Cursor = Cursors.Hand;
-            this.pct_w0_1_0.Image = Properties.Resources.good;
+            this.pct_w0_1_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w0_1_0.Location = new System.Drawing.Point(6, 17);
             this.pct_w0_1_0.Name = "pct_w0_1_0";
             this.pct_w0_1_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_w0_1_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w0_1_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w0_1_0.TabIndex = 1;
             this.pct_w0_1_0.TabStop = false;
+            this.pct_w0_1_0.Click += new System.EventHandler(this.UpClick);
             // 
             // grp_w1_0
             // 
             this.grp_w1_0.Controls.Add(this.pct_w1_0_1);
             this.grp_w1_0.Controls.Add(this.pct_w1_0_0);
+            this.grp_w1_0.Enabled = false;
             this.grp_w1_0.Location = new System.Drawing.Point(279, 182);
             this.grp_w1_0.Name = "grp_w1_0";
+            this.grp_w1_0.Round = 1;
             this.grp_w1_0.Size = new System.Drawing.Size(170, 102);
             this.grp_w1_0.TabIndex = 5;
             this.grp_w1_0.TabStop = false;
@@ -592,32 +599,32 @@ namespace BinaryBeer
             // pct_w1_0_1
             // 
             this.pct_w1_0_1.BackColor = System.Drawing.Color.White;
-            this.pct_w1_0_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w1_0_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w1_0_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w1_0_1.BackgroundImage")));
+            this.pct_w1_0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w1_0_1.Beer = null;
-            this.pct_w1_0_1.Cursor = Cursors.Hand;
-            this.pct_w1_0_1.Image = Properties.Resources.bad;
+            this.pct_w1_0_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w1_0_1.Location = new System.Drawing.Point(87, 17);
             this.pct_w1_0_1.Name = "pct_w1_0_1";
             this.pct_w1_0_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_w1_0_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w1_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w1_0_1.TabIndex = 1;
             this.pct_w1_0_1.TabStop = false;
+            this.pct_w1_0_1.Click += new System.EventHandler(this.UpClick);
             // 
             // pct_w1_0_0
             // 
             this.pct_w1_0_0.BackColor = System.Drawing.Color.White;
-            this.pct_w1_0_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w1_0_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w1_0_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w1_0_0.BackgroundImage")));
+            this.pct_w1_0_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w1_0_0.Beer = null;
-            this.pct_w1_0_0.Cursor = Cursors.Hand;
-            this.pct_w1_0_0.Image = Properties.Resources.good;
+            this.pct_w1_0_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w1_0_0.Location = new System.Drawing.Point(6, 17);
             this.pct_w1_0_0.Name = "pct_w1_0_0";
             this.pct_w1_0_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_w1_0_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w1_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w1_0_0.TabIndex = 1;
             this.pct_w1_0_0.TabStop = false;
+            this.pct_w1_0_0.Click += new System.EventHandler(this.UpClick);
             // 
             // grp_w0_0
             // 
@@ -625,6 +632,7 @@ namespace BinaryBeer
             this.grp_w0_0.Controls.Add(this.pct_w0_0_0);
             this.grp_w0_0.Location = new System.Drawing.Point(192, 290);
             this.grp_w0_0.Name = "grp_w0_0";
+            this.grp_w0_0.Round = 0;
             this.grp_w0_0.Size = new System.Drawing.Size(170, 102);
             this.grp_w0_0.TabIndex = 6;
             this.grp_w0_0.TabStop = false;
@@ -632,38 +640,39 @@ namespace BinaryBeer
             // pct_w0_0_1
             // 
             this.pct_w0_0_1.BackColor = System.Drawing.Color.White;
-            this.pct_w0_0_1.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w0_0_1.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w0_0_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w0_0_1.BackgroundImage")));
+            this.pct_w0_0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w0_0_1.Beer = null;
-            this.pct_w0_0_1.Cursor = Cursors.Hand;
-            this.pct_w0_0_1.Image = Properties.Resources.bad;
+            this.pct_w0_0_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w0_0_1.Location = new System.Drawing.Point(87, 17);
             this.pct_w0_0_1.Name = "pct_w0_0_1";
             this.pct_w0_0_1.Size = new System.Drawing.Size(75, 75);
-            this.pct_w0_0_1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w0_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w0_0_1.TabIndex = 1;
             this.pct_w0_0_1.TabStop = false;
+            this.pct_w0_0_1.Click += new System.EventHandler(this.UpClick);
             // 
             // pct_w0_0_0
             // 
             this.pct_w0_0_0.BackColor = System.Drawing.Color.White;
-            this.pct_w0_0_0.BackgroundImage = Properties.Resources._123asd;
-            this.pct_w0_0_0.BackgroundImageLayout = ImageLayout.Center;
+            this.pct_w0_0_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_w0_0_0.BackgroundImage")));
+            this.pct_w0_0_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_w0_0_0.Beer = null;
-            this.pct_w0_0_0.Cursor = Cursors.Hand;
-            this.pct_w0_0_0.Image = Properties.Resources.good;
+            this.pct_w0_0_0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pct_w0_0_0.Location = new System.Drawing.Point(6, 17);
             this.pct_w0_0_0.Name = "pct_w0_0_0";
             this.pct_w0_0_0.Size = new System.Drawing.Size(75, 75);
-            this.pct_w0_0_0.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_w0_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_w0_0_0.TabIndex = 1;
             this.pct_w0_0_0.TabStop = false;
+            this.pct_w0_0_0.Click += new System.EventHandler(this.UpClick);
             // 
             // grp_ww
             // 
             this.grp_ww.Controls.Add(this.pct_ww);
             this.grp_ww.Location = new System.Drawing.Point(279, 6);
             this.grp_ww.Name = "grp_ww";
+            this.grp_ww.Round = 0;
             this.grp_ww.Size = new System.Drawing.Size(170, 170);
             this.grp_ww.TabIndex = 9;
             this.grp_ww.TabStop = false;
@@ -671,69 +680,70 @@ namespace BinaryBeer
             // pct_ww
             // 
             this.pct_ww.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pct_ww.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pct_ww.BackgroundImage")));
+            this.pct_ww.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pct_ww.Beer = null;
             this.pct_ww.Location = new System.Drawing.Point(22, 22);
             this.pct_ww.Name = "pct_ww";
             this.pct_ww.Size = new System.Drawing.Size(128, 128);
-            this.pct_ww.SizeMode = PictureBoxSizeMode.Zoom;
+            this.pct_ww.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct_ww.TabIndex = 1;
             this.pct_ww.TabStop = false;
             // 
             // FrmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 552);
             this.Controls.Add(this.tbc);
             this.Controls.Add(this.grp_info);
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FrmGame";
-            this.StartPosition = FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BinaryBeer";
-            this.FormClosing += new FormClosingEventHandler(this.FrmGame_FormClosing);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmGame_FormClosing);
             this.Load += new System.EventHandler(this.FrmGame_Load);
             this.grp_info.ResumeLayout(false);
             this.grp_info.PerformLayout();
-            ((ISupportInitialize)(this.pct_av)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_av)).EndInit();
             this.grp_0_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_0_0_1)).EndInit();
-            ((ISupportInitialize)(this.pct_0_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_0_0)).EndInit();
             this.grp_wnr_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_wnr_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_wnr_0)).EndInit();
             this.tbc.ResumeLayout(false);
             this.tb_def.ResumeLayout(false);
             this.grp_0_3.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_0_3_1)).EndInit();
-            ((ISupportInitialize)(this.pct_0_3_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_3_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_3_0)).EndInit();
             this.grp_1_1.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_1_1_1)).EndInit();
-            ((ISupportInitialize)(this.pct_1_1_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_1_0)).EndInit();
             this.grp_0_2.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_0_2_1)).EndInit();
-            ((ISupportInitialize)(this.pct_0_2_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_2_0)).EndInit();
             this.grp_2_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_2_0_1)).EndInit();
-            ((ISupportInitialize)(this.pct_2_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2_0_0)).EndInit();
             this.grp_1_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_1_0_1)).EndInit();
-            ((ISupportInitialize)(this.pct_1_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_1_0_0)).EndInit();
             this.grp_0_1.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_0_1_1)).EndInit();
-            ((ISupportInitialize)(this.pct_0_1_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_0_1_0)).EndInit();
             this.tb_sel.ResumeLayout(false);
             this.grp_w0_1.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_w0_1_1)).EndInit();
-            ((ISupportInitialize)(this.pct_w0_1_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_1_0)).EndInit();
             this.grp_w1_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_w1_0_1)).EndInit();
-            ((ISupportInitialize)(this.pct_w1_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w1_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w1_0_0)).EndInit();
             this.grp_w0_0.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_w0_0_1)).EndInit();
-            ((ISupportInitialize)(this.pct_w0_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_w0_0_0)).EndInit();
             this.grp_ww.ResumeLayout(false);
-            ((ISupportInitialize)(this.pct_ww)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_ww)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -753,7 +763,7 @@ namespace BinaryBeer
         private GroupBoxEx grp_0_3;
         private GroupBoxEx grp_1_0;
         private GroupBoxEx grp_1_1;
-        private GroupBoxEx grp_wnr_0;
+        private GroupBox grp_wnr_0;
         private Label lbl_lbl_lbl;
         private Label lbl_lvl;
         private PictureBoxEx pct_1_0_1;

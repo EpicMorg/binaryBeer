@@ -22,5 +22,16 @@ namespace BinaryBeer
             MessageBox.Show(@"Очистить статистику? Все результаты будут потеряны.", @"Вниание!", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Exclamation);
         }
+
+        private void FrmStatss_Load( object sender, EventArgs e ) {
+            var items = StatMan.Get();
+            dataGridView1.Rows.Add( items.Length );
+            var beers = Beer.GetBeers();
+            for ( int i = 0; i < items.Length; i++ ) {
+                var t = items[ i ];
+                dataGridView1.Rows[ i ].Cells[ 0 ].Value = t.Player;
+                dataGridView1.Rows[i].Cells[1].Value = beers.FirstOrDefault(a=>a.Name==t.BeerName).Image;
+            }
+        }
     }
 }

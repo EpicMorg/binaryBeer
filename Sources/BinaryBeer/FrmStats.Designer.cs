@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatss));
             this.BtnStatsClean = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FavBeer = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.DName,
+            this.Name,
             this.FavBeer});
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -61,10 +61,10 @@
             // 
             // Name
             // 
-            this.DName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.DName.HeaderText = "Имя";
-            this.DName.Name = "Name";
-            this.DName.ReadOnly = true;
+            this.Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Name.HeaderText = "Имя";
+            this.Name.Name = "Name";
+            this.Name.ReadOnly = true;
             // 
             // FavBeer
             // 
@@ -85,10 +85,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmStatss";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "BinaryBeer :: Статистика";
+            this.Load += new System.EventHandler(this.FrmStatss_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -100,5 +100,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private  System.Windows.Forms.DataGridViewTextBoxColumn DName;
         private System.Windows.Forms.DataGridViewImageColumn FavBeer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
     }
 }
