@@ -25,6 +25,7 @@ namespace BinaryBeer
 
         private void FrmStatss_Load( object sender, EventArgs e ) {
             var items = StatMan.Get();
+            if (!items.Any()) return;
             dataGridView1.Rows.Add( items.Length );
             var beers = Beer.GetBeers();
             for ( int i = 0; i < items.Length; i++ ) {
